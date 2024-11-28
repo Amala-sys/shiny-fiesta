@@ -1,0 +1,305 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Top Bar */
+.top-bar {
+    background: #051c35;
+    color: white;
+    padding: 10px 0;
+}
+
+.top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar .contact span {
+    margin-right: 20px;
+}
+.enquire-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.enquire-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Option Bar */
+.logo img {
+    width: 80%; 
+    height: auto;
+    margin-right: 15px;
+    margin-left:15px;
+}
+.school-info {
+    text-align: left;
+}
+
+.school-name {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.school-location {
+    font-size: 1rem;
+    margin: 0;
+    color: #ccc;
+}
+
+.option-bar {
+    background: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.option-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option-bar p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.options {
+    list-style: none;
+    display: flex;
+}
+
+.options li {
+    margin: 0 15px;
+}
+
+.options a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.search_bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-btn {
+    padding: 5px 10px;
+    background: #1f3c5b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* About Section */
+.About_company h1 {
+    font-size: 2.8rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.About_company h3 {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    max-width: 600px;
+    margin-left: auto; /* Ensures the paragraph is centered horizontally */
+    margin-right: auto; /* Ensures the paragraph is centered horizontally */
+    text-align: center;
+}
+
+.know {
+    margin-top: 20px;
+}
+
+
+.about {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.know .btn {
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+}
+.about p{
+    text-align: justify;
+    padding: auto;
+}
+/* Explore Section */
+.explore {
+    background: #fff;
+    padding: 50px 0;
+}
+
+.explore h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.exp-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.exp-item {
+    text-align: center;
+    width: 23%;
+    margin-bottom: 20px;
+}
+
+.exp-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.exp_but {
+    display: block; /* Makes the button behave like a block element */
+    margin: 20px auto; /* Center horizontally */
+    padding: 10px 20px;
+    background-color: #08010d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.exp_but:hover {
+    background-color: #0a1118;
+}
+/* Principal Message Section */
+.principal {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.principal img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.Message {
+    max-width: 600px;
+}
+
+/* Gallery Section */
+.gallery_1 {
+    background: #f9f9f9;
+    padding: 50px 0;
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery-grid img {
+    width: 23%;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+/* Achievements Section */
+.Achievements {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.Achievements h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.achieve {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout */
+    gap: 20px;
+}
+
+.achieve-item {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 8px; /* Optional: rounded corners for images */
+}
+
+.achieve-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Ensures the image matches the container's border radius */
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 10px; /* Positions the text near the bottom of the image */
+    left: 50%;
+    transform: translateX(-50%); /* Centers the text horizontally */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+    color: white;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px; /* Optional: Rounded corners for the text background */
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+
+/* Footer */
+.footer {
+    background: #007BFF;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer h3 {
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+

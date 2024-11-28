@@ -230,21 +230,48 @@ body {
 
 /* Achievements Section */
 .Achievements {
-    padding: 50px 0;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.Achievements h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #007bff;
 }
 
 .achieve {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout */
+    gap: 20px;
 }
 
-.achieve img {
-    width: 23%;
-    margin: 1%;
-    border-radius: 10px;
+.achieve-item {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 8px;
+
+.achieve-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; 
 }
 
+.overlay-text {
+    position: absolute;
+    bottom: 10px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px; 
+    white-space: nowrap; 
+}
 /* Footer */
 .footer {
     background: #007BFF;

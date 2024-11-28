@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -129,8 +129,8 @@ body {
     line-height: 1.6;
     margin-bottom: 25px;
     max-width: 600px;
-    margin-left: auto; /* Ensures the paragraph is centered horizontally */
-    margin-right: auto; /* Ensures the paragraph is centered horizontally */
+    margin-left: auto; 
+    margin-right: auto; 
     text-align: center;
 }
 
@@ -190,8 +190,8 @@ body {
     border-radius: 10px;
 }
 .exp_but {
-    display: block; /* Makes the button behave like a block element */
-    margin: 20px auto; /* Center horizontally */
+    display: block; 
+    margin: 20px auto; 
     padding: 10px 20px;
     background-color: #08010d;
     color: white;
@@ -256,7 +256,7 @@ body {
 
 .achieve {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
     gap: 20px;
 }
 
@@ -264,27 +264,27 @@ body {
     position: relative;
     text-align: center;
     overflow: hidden;
-    border-radius: 8px; /* Optional: rounded corners for images */
+    border-radius: 8px; 
 }
 
 .achieve-item img {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 8px; /* Ensures the image matches the container's border radius */
+    border-radius: 8px; 
 }
 
 .overlay-text {
     position: absolute;
-    bottom: 10px; /* Positions the text near the bottom of the image */
+    bottom: 10px; 
     left: 50%;
-    transform: translateX(-50%); /* Centers the text horizontally */
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+    transform: translateX(-50%); 
+    background-color: rgba(0, 0, 0, 0.6); 
     color: white;
     padding: 10px 15px;
     font-size: 1rem;
-    border-radius: 5px; /* Optional: Rounded corners for the text background */
-    white-space: nowrap; /* Prevents text from wrapping */
+    border-radius: 5px; 
+    white-space: nowrap; 
 }
 
 /* Footer */

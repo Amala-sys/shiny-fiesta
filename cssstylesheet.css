@@ -177,8 +177,8 @@ body {
     border-radius: 10px;
 }
 .exp_but {
-    display: block; /* Makes the button behave like a block element */
-    margin: 20px auto; /* Center horizontally */
+    display: block; 
+    margin: 20px auto; 
     padding: 10px 20px;
     background-color: #08010d;
     color: white;
@@ -243,7 +243,7 @@ body {
 
 .achieve {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
     gap: 20px;
 }
 

@@ -117,16 +117,7 @@ body {
 }
 
 /* About Section */
-.About_company .container {
-    background-image: linear-gradient(rgba(22, 13, 13, 0.5), rgba(179, 141, 141, 0.5)), url('school-building-1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 50px 20px;
-    color: rgb(113, 84, 84);
-    text-align: center;
-    height: 300px;
-}
+
 
 .about {
     text-align: center;
